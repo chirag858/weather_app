@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.containerweather{
+    height:auto;
+    width:auto;
+color: darkblue;
+}
+body{
+    height: 100px;
+    background-color: rgba(21, 43, 171, 0.829)
+}
+.container{
+    position:relative; 
+    right:360px; 
+    top:2px;
+display: flex;
+font-size: 250px;
+margin-top: 100px;
+}
+#search-input{
+    width:auto;
+    height:auto;
+    display:flex;
+    
+}
+form{
+    margin-left: 1000px;
+    height:100px;
+    width:80px; 
+    justify-content:right;
+  display: flex;
+}
+#search-input{
+    width:100px;
+    justify-content: left;
+    height: 60px;
+    border: 6px solid crimson;
+    border-radius:4px;
+    color:lightcoral;
+    background-color: lightcoral;
+}
+#search-input:hover{
+color:maroon;
+}
+#search-button{
+    width:100px;
+    height:60px;
+    justify-content: left;
+    color:rgb(145, 142, 142);
+    border: 6px solid cyan;
+    border-radius:4px;
+    background-color: lightcyan;
+}
+img{
+    background: none;
+}
+#temperature{
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff
+}
+#temp-icon{
+    width: 40%;
+    margin: 1rem;
+    height: 50%;
+}
+#temperature #temp-value{
+    font-size:1.5rem;
+    color: #ffffff
+}
+#temperature #temp-unit{
+    font-size: 1.5rem;
+    color: #ffffff
+}
+#climate{
+    font-size: 1.5rem;
+    text-align:center;
+    color: #ffffff
+}
+#location{
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff
+}
+main{
+    background-color: #6b778d;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left:600px;
+    width: 400px;
+    justify-content: center;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
